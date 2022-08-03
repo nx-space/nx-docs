@@ -1,41 +1,34 @@
-# Website
+# NEXT Space Documentation
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+## Contributing 贡献
 
-### Installation
+这个站点使用的是 Docusaurus. 站点内容使用 Markdown 编写，文件都在 `docs` 文件夹中. 如果只有一些简单的修改，你可以直接在 GitHub 网页端进行修改并新建一个 Pull Request.
 
-```
-$ yarn
-```
+在本地开发中，[pnpm](https://pnpm.io/) 被选用为项目的包管理器，你需要使用pnpm安装依赖：
 
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
+```bash
+pnpm i
+pnpm run start
+pnpm run build
+pnpm run serve
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+**请注意！请务必在修改后使用 `build` 和 `serve` 查看构建产物是否正常输出！**
 
-### Deployment
+## Working on the content 修改文字
 
-Using SSH:
+- 关于支持的 Markdown 扩展和在 Markdown 内部使用 Mdx 语法的能力，请参阅 Docusaurus 文档
+- 有关编写和维护文档内容的规则和建议，请参阅编写指南。
 
-```
-$ USE_SSH=true yarn deploy
-```
+## Guide 编写指南
 
-Not using SSH:
+<u>**新增一个章节**</u>：
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+1. 克隆此项目
+2. 在 `docs` 文件夹中，新增一个文件夹，请语义化命名，假设为 `test`
+3. 编写内容和`_category_.json`，具体可以借鉴其他文档文件夹
+4. 创建 Pull Request. 其余事情只需要交给我们来做就好了
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+**<u>编写内容的时候需要注意的事情</u>**：
+
+1. 中文与英文之间请保留一个空格，如`测试 test 测试`
