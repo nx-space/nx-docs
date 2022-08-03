@@ -1,0 +1,49 @@
+.action {
+  flex-shrink: 0;
+  padding: 6px;
+}
+
+.brand {
+  border-color: #42d392;
+  color: #fff;
+  background-color: #42b883;
+}
+
+.medium {
+  border-radius: 20px;
+  padding: 0 20px;
+  line-height: 38px;
+  font-size: 14px;
+}
+
+.alt {
+  border-color: #d1d1d1;
+  color: #213547;
+  background-color: #f2f2f2;
+}
+
+[data-theme='dark'] .alt {
+  border-color: #484848;
+  color: #fff;
+  background-color: #3a3a3a;
+}
+
+.VPButton {
+  display: inline-block;
+  border: 1px solid transparent;
+  text-align: center;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: color .25s, border-color .25s, background-color .25s;
+}
+
+a.VPButton {
+  text-decoration: inherit;
+}
+
+
+a.VPButton.brand:hover {
+  border-color: #35eb9a;
+  background-color: #328861;
+  color: rgba(255, 255, 255, .87);
+}

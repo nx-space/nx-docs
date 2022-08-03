@@ -1,0 +1,133 @@
+.VPHome {
+  padding-bottom: 96px;
+}
+.VPHero {
+  margin-top: calc(72px * -1);
+  padding: calc(72px + 48px) 24px 48px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1152px;
+}
+
+.main {
+  position: relative;
+  z-index: 10;
+  order: 2;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.name {
+  color: #42b883;
+}
+
+.name,
+.text {
+  max-width: 392px;
+  letter-spacing: -.4px;
+  line-height: 40px;
+  font-size: 32px;
+  font-weight: 700;
+  white-space: pre-wrap;
+}
+[data-theme="dark"] .text {
+  color: rgba(255, 255, 255, .87);
+}
+
+.clip {
+  background: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: #42b883;
+}
+
+.tagline {
+  padding-top: 8px;
+  max-width: 392px;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 500;
+  white-space: pre-wrap;
+  color: rgba(60, 60, 60, .7);
+}
+[data-theme="dark"] .tagline {
+  color: rgba(235, 235, 235, .6)
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -6px;
+  padding-top: 24px;
+}
+
+.action {
+  flex-shrink: 0;
+  padding: 6px;
+}
+
+.brand {
+  border-color: #42d392;
+  color: #fff;
+  background-color: #42b883;
+}
+
+.medium {
+  border-radius: 20px;
+  padding: 0 20px;
+  line-height: 38px;
+  font-size: 14px;
+}
+
+.alt {
+  border-color: #d1d1d1;
+  color: #213547;
+  background-color: #f2f2f2;
+}
+
+.VPButton {
+  display: inline-block;
+  border: 1px solid transparent;
+  text-align: center;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: color .25s, border-color .25s, background-color .25s;
+}
+
+a.VPButton {
+  text-decoration: inherit;
+}
+
+@media (min-width: 640px) {
+  .VPHero {
+    padding: calc(56px + 80px) 48px 64px;
+  }
+
+  .name,
+  .text {
+    max-width: 576px;
+    line-height: 56px;
+    font-size: 48px;
+  }
+
+  .tagline {
+    padding-top: 12px;
+    max-width: 576px;
+    line-height: 32px;
+    font-size: 20px;
+  }
+
+  .actions {
+    padding-top: 32px;
+  }
+}
+
+/* minwidth 768 */
+@media (min-width: 768px) {
+  .VPHome {
+    padding-bottom: 128px;
+  }
+}
