@@ -4,7 +4,7 @@
         <title>NEXT Space Blog</title>
         <link>https://nx.js.org/blog</link>
         <description>NEXT Space Blog</description>
-        <lastBuildDate>Wed, 03 Aug 2022 16:05:25 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Aug 2022 16:30:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[NEXT Core v1.5.1 Release.]]></title>
             <link>https://nx.js.org/blog/next-core-v1.5.1-release</link>
             <guid>/next-core-v1.5.1-release</guid>
-            <pubDate>Wed, 03 Aug 2022 16:05:25 GMT</pubDate>
+            <pubDate>Wed, 03 Aug 2022 16:30:50 GMT</pubDate>
             <description><![CDATA[感谢 @MYXXTS @origami-tech @Truimo 等大佬的鼎力相助]]></description>
             <content:encoded><![CDATA[<p><strong>感谢 <a href="https://github.com/MYXXTS" target="_blank" rel="noopener noreferrer">@MYXXTS</a> <a href="https://github.com/origami-tech" target="_blank" rel="noopener noreferrer">@origami-tech</a> <a href="https://github.com/Truimo" target="_blank" rel="noopener noreferrer">@Truimo</a> 等大佬的鼎力相助</strong></p><p>经过1年的摸索与将近1个月的从零重构，我们出版了新的 core，新的起点。</p><h2 class="anchor anchorWithStickyNavbar_S230" id="新特性">新特性<a class="hash-link" href="#新特性" title="标题的直接链接">​</a></h2><ul><li><p>新的<strong>数据库</strong>驱动 <strong>MongoDB</strong>：MongoDB 是一个 NoSQL 数据库，它提供了一种非常简单的方式来存储和查询数据，而且它的性能非常高。</p></li><li><p>新的缓存机制 <strong>Redis</strong>：Redis 是一个高性能的内存数据库，作为一个缓存，它可以提供高速的查询和存储，目前 NEXT Core 使用于配置获取中</p></li><li><p>新的<strong>插件系统</strong>，插件系统是一个非常特别的框架，它可以让你在空间中添加新的功能，比如 WebHook, Macros, 可以让你的空间更加灵活，更加强大。</p><div class="theme-admonition theme-admonition-caution alert alert--warning admonition_Nwum"><div class="admonitionHeading_cPcp"><span class="admonitionIcon_AoTf"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>警告</div><div class="admonitionContent_EVia"><p>新的<strong>插件系统</strong>尚未稳定，仅完成了基本的插件注册，激活，应用插件</p></div></div></li><li><p>全新的<strong>文章备份模块</strong>：文章备份可以让你将文章备份到本地，以备以后使用，同时支持导入/迁移</p><div class="theme-admonition theme-admonition-caution alert alert--warning admonition_Nwum"><div class="admonitionHeading_cPcp"><span class="admonitionIcon_AoTf"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>警告</div><div class="admonitionContent_EVia"><p>改进后的<strong>文章备份</strong>，将遵循以下逻辑：</p><ul><li>单篇文章直接输出</li><li>多篇文章打包输出</li></ul></div></div></li><li><p>改进后的<strong>数据库备份模块</strong>：将全部 NEXT 数据保存至本地，数据比文章备份模块更加全面</p></li><li><p>在<strong>文章或页面</strong>中自动记录<strong>图片相关元数据</strong>：比如图片的宽高、图片的类型、图片的 URL 等等，但也需要前端支持，这样可以让你的文章更加美观</p></li><li><p>提供了更多的文章管理选项：比如文章的标签，文章的分类，文章的显示/隐藏，文章的发布时间，等等</p></li><li><p>支持<strong>标签或分类合并</strong>：将多个分类或标签中的文章合并如一个分类或标签</p></li><li><p>使用了<strong>装饰器</strong>来<strong>验证密钥</strong>以使用<strong>高阶操作</strong></p></li><li><p>全新的<strong>跨平台 Cookie</strong> 解析装饰器：支持多种浏览器，比如 Chrome、Firefox、Safari、IE、Edge 等等</p></li></ul>]]></content:encoded>
         </item>
