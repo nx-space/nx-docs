@@ -11,36 +11,28 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     icon: '📦',
-    title: '简单易用',
-    description: "NEXT 是一个简单易用的博客程序，你可以通过一键命令来立即创建一个新的博客空间。",
+    title: '开箱即用',
+    description: "仅需一句命令即可使用 Docker 启动完整项目，同时使用 NxCli 也可自动部署",
   },
   {
     icon: '📚',
-    title: '专注于空间',
-    description: (
-      <>
-        NEXT 专注于分享空间的开发，您可以在 NEXT 中尽情地分享您身边的事情，写写文章，写写日记
-      </>
-    ),
+    title: '速度飞起',
+    description: "服务端支持异步加载、并发处理、数据缓存等，客户端支持离线缓存、渲染模块化等。",
   },
   {
-    icon: '📝',
-    title: '基于强大框架',
-    description: (
-      <>
-        NEXT 基于许多强大的框架，在一定程序上保证了网站的安全性。
-      </>
-    ),
+    icon: '🔑',
+    title: '指标强大',
+    description: "前端服务端渲染 (SSR) 支持，为 SEO 和高性能提供支持；服务端使用 Nodejs 异步开发，提供更高的性能。",
+  },
+  {
+    icon: '💡',
+    title: '主题市场',
+    description: "主题多种开发方式，支持使用模板引擎耦合式开发或前后端分离开发，提供更多的主题选择。",
   },
   {
     icon: '🛠️',
-    title: '坚持开源项目',
-    description: "NEXT 坚持开源项目，您可以在 GitHub 上查看源代码，并且可以自由地修改。",
-  },
-  {
-    icon: '💻',
-    title: '持续学习改进',
-    description: "NEXT 将会持续学习改进，不断更新迭代版本，以便您能够更好地使用它。",
+    title: '插件系统',
+    description: "使用插件对博客功能自定义扩展，打造更加强大的博客空间。",
   },
   {
     icon: '💬',
